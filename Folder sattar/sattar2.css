@@ -1,0 +1,52 @@
+/* sattar2.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.heading-container {
+    text-align: center;
+}
+
+.fancy-heading {
+    font-size: 2em;
+    margin: 10px 0;
+    background: linear-gradient(45deg, #ff6f61, #ffcc00, #6b5b95);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, text-shadow 0.4s ease;
+}
+
+.fancy-heading:nth-child(1) {
+    font-size: 7em;
+}
+
+.fancy-heading:nth-child(2) {
+    font-size: 6em;
+}
+
+.fancy-heading:nth-child(3) {
+    font-size: 5em;
+}
+
+.fancy-heading:nth-child(4) {
+    font-size: 4em;
+}
+
+.fancy-heading:nth-child(5) {
+    font-size: 3em;
+}
+
+/* Efek transisi saat mouse hover */
+.fancy-heading:hover {
+    transform: scale(1.1);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}

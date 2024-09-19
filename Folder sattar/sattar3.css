@@ -1,0 +1,26 @@
+/* sattar3.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Menghindari scrollbar jika gambar terlalu besar */
+}
+
+img {
+    width: 300px; /* Sesuaikan dengan ukuran gambar yang diinginkan */
+    height: auto; /* Mempertahankan rasio aspek gambar */
+    border-radius: 15px; /* Menambahkan sudut melengkung pada gambar */
+    transition: transform 0.5s ease, filter 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.7); /* Bayangan warna-warni */
+}
+
+/* Efek transisi saat mouse hover */
+img:hover {
+    transform: scale(1.1); /* Memperbesar gambar saat hover */
+    filter: brightness(1.2) contrast(1.2) saturate(1.5); /* Menambahkan efek warna pada gambar */
+    box-shadow: 0 0 20px rgba(255, 105, 180, 1); /* Meningkatkan bayangan warna-warni */
+}
