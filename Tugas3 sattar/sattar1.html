@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Data Mahasiswa</title>
+    <link rel="stylesheet" href="sattar1.css"> <!-- Mengimpor file CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-100 flex items-center justify-center min-h-screen">
+    <div class="w-full max-w-4xl">
+        <!-- Tambahkan judul di sini -->
+        <h1 class="text-3xl font-bold text-center mb-6 text-gray-800">DATA MAHASISWA</h1>
+        
+        <table class="min-w-full bg-white rounded-lg shadow-md">
+            <thead id="tableHeader">
+                <tr class="bg-blue-500 text-white">
+                    <th class="py-3 px-4 text-left">NO</th>
+                    <th class="py-3 px-4 text-left">NAMA</th>
+                    <th class="py-3 px-4 text-left">UMUR</th>
+                    <th class="py-3 px-4 text-left">SOSIAL MEDIA</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody" class="text-gray-700">
+                <!-- Rows will be added by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <script src="sattar1.js"></script>
+</body>
+</html>
